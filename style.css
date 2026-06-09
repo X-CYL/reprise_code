@@ -79,3 +79,59 @@ video {
     align-items: center;
     text-align: center;
 }
+button {
+    background-color: rgb(143, 141, 141);
+    color: rgb(251, 249, 249);
+    border: 3px solid blue;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: rgb(143, 140, 140);
+    color: rgb(165, 235, 160);
+}
+.classbuttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.nav {
+    background-color: rgb(107, 167, 220);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.nav ul {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    margin: 0;
+    padding: 0;
+}.nav ul li a{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgb(242, 175, 175);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid rgb(241, 37, 37);
+    border-radius: 8px;
+    padding: 5px 10px;  
+}
+.nav ul li :hover {
+    background-color: rgb(241, 37, 37);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
