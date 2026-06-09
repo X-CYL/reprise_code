@@ -12,6 +12,7 @@ h1 {
 p {
     font-size: 1.3rem;
     color: gray;
+    margin-left: 20px;
 }
 h3 {
     background-color: rgb(196, 242, 156);
@@ -57,4 +58,16 @@ h1:hover
 h3:hover
 {
     font-size: 1.6rem;
+}
+video {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 12px solid rgb(0, 0, 0);
 }
