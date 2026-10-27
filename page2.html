@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style2.css">
+    <script type="module"src="scriptsPage2.js" defer></script>
     <title>Mon premier projet</title>
 </head>
 <body>
@@ -14,7 +16,16 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <h1 class="uppercase text-2xl text-red-600 text-center">Mon exercice avec Tailwind CSS</h1>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <h1 class="titre">Exercices avec JS</h1>
+    <div class="container1">
+        <div class="container2">
+            <input class="inputTexte" type="text" id="inputTexte" placeholder="Entrez du texte"></input>
+            <button id="button1" class="button1">Récupérer la valeur de l'input</button>
+        </div>
+            <p class="result">le resultat sera affiché ici</p>
+            <div class="divOutputTexte">
+                <p class="outputTexte" id="outputTexte"></p>
+            </div>
+        </div>
 </body>
 </html>

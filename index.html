@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon premier projet</title>
     <link rel="stylesheet" href="/style.css">
+    <script type="module"src="script.js" defer></script>
+
 </head>
 <body>
     <nav class="nav">
@@ -17,8 +19,9 @@
     </nav>
     <h1>Bonjour le monde !</h1>
     <p>Mon premier projet HTML dans VS Code.</p>
-    <h3>il est difficile de s'y remettre, après tant de temps passé à je ne sais pas quoi faire, il faut que je me remette au niveau</h3>
+    <h3 id="indiceTexte">il est difficile de s'y remettre, après tant de temps passé à je ne sais pas quoi faire, il faut que je me remette au niveau</h3>
     <p class="uppercase text-3xl text-red-400">mettre une photo</p>
+    <input type="text" id="inputTexte" label="entrez du texte" placeholder="entrez du texte">
         <div class="center">
             <figure>
                 <img class="photo1 pics" src="./pics/lune_finish.jpeg" alt="Lune finie" title="la lune en phase d'éclipse">
@@ -46,8 +49,8 @@
     </div>
     <p>mettre des boutons</p>
     <div class="classbuttons">
-        <button class="button">Bouton 1</button>
-        <button class="button">Bouton 2</button>
+        <button id="button1" class="button" >recuperer la valeur de input</button>
+        <button id="button2"class="button">Bouton 2</button>
         <button class="button">Bouton 3</button>
     </div>
     </div>
